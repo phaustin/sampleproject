@@ -163,6 +163,8 @@ setup(
     entry_points={  # Optional
         'console_scripts': [
             'sample=sample:main',
+            'dump_comments = e340py.dump_comments:main',
+            'find_links = e340py.find_links:main'
         ],
     },
 
